@@ -1,14 +1,15 @@
 html, body {
     margin: 0;
     font-family: 'Karla', sans-serif;
+    background: #f5ecfb;
 }
 
 :root {
-    --main-color: #67595E; /* decided: #9e80c5*/
-    --heading-color: #EED6D3; /* decided: #f1defc*/
-    --radio-accent-color: #bd301d;
+    --main-color: #9e80c5;
+    --heading-color: #FBEAFF;
+    --radio-accent-color: #764db8;
     --close-btn: #555;
-    --ele-bg-color: #fff0ee; 
+    --ele-bg-color: #f1dcfe; 
     --borders-color: #bcbcbc;
 }
 

@@ -92,6 +92,7 @@ label{
     background-color: var(--ele-bg-color);
     color: var(--radio-accent-color);
     font-weight: bold;
+    accent-color: var(--radio-accent-color);
 }
 
 .radio:last-child{
@@ -144,7 +145,7 @@ input[type="radio"]{
     background-color: var(--ele-bg-color);
 }
 
-.cat-img{
+.yoongi-img{
     max-width: 340px;
     max-height: 420px;
     border-radius: 5px;

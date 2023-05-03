@@ -35,7 +35,14 @@ function renderYoongiGif() {
         class="yoongi-img" 
         src="./suga-gifs/${yoongiObject.image}"
         alt="${yoongiObject.alt}"
-    >`
+    >
+    <a
+        class="download-btn"
+        href="./suga-gifs/${yoongiObject.image}"
+        download
+    >
+    Download
+    </a>`
     memeModal.style.display = 'flex'
 }
 

@@ -6,7 +6,9 @@ function getEmotionsArray(yoongiData){
     const emotionsArray = []
     for (let yoongi of yoongiData) {
         for (let emotion of yoongi.emotionTags) {
-            emotionsArray.push(emotion)
+            if(!emotionsArray.includes(emotion)) {
+                emotionsArray.push(emotion)
+            }
         }
     }
     return emotionsArray

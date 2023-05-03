@@ -55,12 +55,12 @@ export const yoongiData = [
         alt: "yoongi being embarrased",
     },
     {
-        emotionTags: ["shy","cute"],
+        emotionTags: ["shy"],
         image: "embarrased1.gif",
         alt: "yoongi being embarrased",
     },
     {
-        emotionTags: ["shy","cute"],
+        emotionTags: ["shy"],
         image: "embarrased2.gif",
         alt: "yoongi being embarrased",
     },
@@ -70,12 +70,12 @@ export const yoongiData = [
         alt: "yoongi being embarrased and happy",
     },
     {
-        emotionTags: ["finger heart"],
+        emotionTags: ["heart"],
         image: "fingerhearts.gif",
         alt: "yoongi making finger hearts",
     },
     {
-        emotionTags: ["finger heart"],
+        emotionTags: ["heart"],
         image: "fingerhearts1.gif",
         alt: "yoongi making finger hearts",
     },
@@ -85,14 +85,14 @@ export const yoongiData = [
         alt: "yoongi making finger hearts",
     },
     {
-        emotionTags: ["gummy smile"],
+        emotionTags: ["laughing"],
         image: "gummysmile.gif",
-        alt: "yoongi and his cute gummy smile hehe",
+        alt: "yoongi and his cute laughing hehe",
     },
     {
-        emotionTags: ["gummy smile"],
+        emotionTags: ["laughing"],
         image: "gummysmile1.gif",
-        alt: "yoongi and his cute gummy smile hehe",
+        alt: "yoongi and his cute laughing hehe",
     },
     {
         emotionTags: ["happy"],
@@ -100,12 +100,12 @@ export const yoongiData = [
         alt: "yoongi happy",
     },
     {
-        emotionTags: ["happy", "excited"],
+        emotionTags: ["happy"],
         image: "happyandexcited.gif",
         alt: "yoongi happy",
     },
     {
-        emotionTags: ["happy", "excited"],
+        emotionTags: ["happy"],
         image: "happyandexcited1.gif",
         alt: "yoongi happy",
     },
@@ -193,11 +193,6 @@ export const yoongiData = [
         emotionTags: ["savvy", "laughing"],
         image: "savvyandlaughing.gif",
         alt: "my savvy min cat suga",
-    },
-    {
-        emotionTags: ["scary"],
-        image: "scary.gif",
-        alt: "scary min cat suga",
     },
     {
         emotionTags: ["sleepy"],

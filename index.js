@@ -12,7 +12,15 @@ emotionRadios.addEventListener('change', highlightCheckedRadioButton)
 
 getImageBtn.addEventListener('click', renderYoongiGif)
 
+// Close Modal
 memeModalCloseBtn.addEventListener('click', closeModal)
+
+document.addEventListener('click', function(e) {
+    if(e.target !== getImageBtn && e.target !== memeModal) {
+        memeModal.style.display = 'none'
+    }
+})
+
 
 
 // Functions
@@ -44,6 +52,7 @@ function renderYoongiGif() {
     Download
     </a>`
     memeModal.style.display = 'flex'
+
 }
 
 function getSingleYoongiGifObject() {
